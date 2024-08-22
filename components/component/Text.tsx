@@ -1,5 +1,6 @@
 export const training_text=`
-If user Asked about reparing then Send to fill the Side Contact Form
+Give Simple  Inforamtion in less words less than 5 lines and answer which is in below text , on every qurey Provide form.
+If user Asked about reparing then Send to fill the Side Contact Form.
 1. Plumbing Services
 Fixing Leaks and Clogs
 ● Minor Fixes: For small leaks, apply plumber's tape or pipe sealant to the affected area.

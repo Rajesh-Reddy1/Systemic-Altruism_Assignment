@@ -136,7 +136,7 @@ export function App() {
                 ].filter(Boolean),
               },
             ],
-            max_tokens: 4096,
+            max_tokens: 512,
             temperature: 0.7,
           }),
         }
@@ -274,7 +274,7 @@ export function App() {
                 onClick={handleSendMessage}
                 variant="ghost"
                 size="icon"
-                className="rounded-full border border-[#e0e0e0] w-10 h-8 flex items-center justify-center"
+                className="rounded-full border border-[#ffffff] w-10 h-8 flex items-center justify-center"
                 disabled={typeof isLoading === 'boolean' ? isLoading : false}
               >
 
