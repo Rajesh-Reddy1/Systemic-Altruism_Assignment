@@ -1,5 +1,5 @@
 export const training_text=`
-1
+If user Asked about reparing then Send to fill the Side Contact Form
 1. Plumbing Services
 Fixing Leaks and Clogs
 ● Minor Fixes: For small leaks, apply plumber's tape or pipe sealant to the affected area.

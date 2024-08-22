@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea"; // Assume these are importe
 import { training_text } from "./Text";
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
+import Form from "./Form";
 
 
 interface Message {
@@ -161,8 +162,8 @@ export function App() {
   };
   
   return (
-    <div className=" bg-[#daf0f7] flex flex-col items-center justify-center  min-h-screen w-full">
-      <div className="bg-[#dddcdc] border-[#555454] rounded-lg shadow-lg w-full max-w-7xl">
+    <div className=" bg-[#daf0f7] flex flex-row items-center justify-center  min-h-screen w-full">
+      <div className="bg-[#dddcdc] border-[#555454] rounded-lg shadow-lg w-full max-w-7xl m-10">
         <div className="flex h-[60px] items-center border-b border-[#e0e0e0] px-6">
           <div className="flex-1 font-medium">Conversation with ChatGPT</div>
           <Button
@@ -285,6 +286,7 @@ export function App() {
           </div>
         </div>
       </div>
+      <Form></Form>
     </div>
   );
 }
